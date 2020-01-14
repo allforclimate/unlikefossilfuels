@@ -33,8 +33,13 @@ body {
     display: block;
 }
 
-.tab-content#twitter #twitter-description {
-    padding-bottom: 10px;
+.tab-content.twitter .twitter-description {
+    padding: 5px 0;
+}
+
+.tab-content.twitter div {
+    font-size: 18px;
+    padding: 5px 0;
 }
 
 iframe {
@@ -42,7 +47,7 @@ iframe {
 }
 
 #page {
-    max-width:900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
